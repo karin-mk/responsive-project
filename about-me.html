@@ -8,6 +8,7 @@
       name="description"
       content="Get to know me personally! Who am I, what are my hobbies, what kind of person am I."
     />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,5 +31,49 @@
     />
     <link rel="stylesheet" href="src/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="/about-me.html">About</a>
+            <a class="nav-link" href="/what-i-do.html">Projects</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row about-me">
+        <div class="col-lg">
+          <h1>Hello, I am Karin Kappler</h1>
+          <h2>
+            Marketing Specialist and Front-End-Developer based in Germany.
+          </h2>
+          <p>
+            I have started my coding journey in January 2021 with SheCodes. It
+            has been a pleasure to learn from the workshops and I have been able
+            to apply my newly gained skills directly and practically completing
+            the homework and projects.
+          </p>
+          <a href="#" class="btn btn-about-me">Check out my work</a>
+        </div>
+        <div class="col-lg">
+          <img src="src/images/marketing.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
