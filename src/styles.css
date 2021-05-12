@@ -94,8 +94,23 @@ img {
   line-height: 1.5;
 }
 
+.about-me h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-me img {
+  max-width: 100%;
+  height: auto;
+}
+
 .about-me {
-  margin-top: 240px;
+  margin-top: 140px;
+  padding: 0 70px 0;
+}
+
+.about-me-content {
+  margin: 25px;
 }
 
 .work-sample-img {
@@ -142,5 +157,19 @@ img {
 
   .btn-project {
     margin-top: 10px;
+  }
+
+  .about-me {
+    margin-top: 40px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-me h1 {
+    font-size: 35px;
+  }
+
+  .about-me-content {
+    margin: 10px;
   }
 }
