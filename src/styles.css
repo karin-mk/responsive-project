@@ -31,9 +31,40 @@ img {
   box-shadow: 15px 10px 5px rgba(#000000, #000000, #000000, 0.2);
 }
 
+nav {
+  font-family: var(--content-font);
+  background-color: var(--secondary-color);
+  padding: 10px 30px;
+}
+
+nav p {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: var(--text-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 16px;
+  margin: 0 24px 0 24px;
+
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+.active {
+  color: var(--primary-color);
+}
+
 .menu-bar {
   background-color: var(--secondary-color);
   font-family: var(--content-font);
+}
+
+.nav-item {
+  float: right;
+  padding-right: 100px;
 }
 
 .btn-hero,
@@ -157,6 +188,29 @@ img {
   p {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  nav {
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .nav-item {
+    padding: 0;
   }
 
   .hero {
