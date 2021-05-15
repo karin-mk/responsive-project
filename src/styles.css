@@ -17,6 +17,11 @@ h2 {
   font-size: 50px;
 }
 
+h4 {
+  font-family: var(--highlight-font);
+  font-size: 48px;
+}
+
 p {
   font-family: var(--content-font);
   font-weight: normal;
@@ -55,6 +60,12 @@ nav a {
 nav a:hover,
 .active {
   color: var(--primary-color);
+}
+
+footer .inquiery {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 20px;
 }
 
 .menu-bar {
@@ -116,8 +127,14 @@ nav a:hover,
   color: var(--primary-color);
   margin: 0 35px;
   border-radius: 50px;
-  padding: 15px;
+  padding: 10px 12px;
   background-color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+
+.social-link:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .content-box h1 {
@@ -176,6 +193,31 @@ nav a:hover,
   padding: 60px 0;
 }
 
+.contact a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.contact a:hover {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.email-link {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  font-weight: bold;
+}
+
+.email-link:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
@@ -207,6 +249,27 @@ nav a:hover,
     margin: 0 0 0 10px;
     padding: 0;
     font-size: 12px;
+  }
+
+  h4 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  footer .inquiery {
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  footer p {
+    margin: 0;
+    text-align: center;
+  }
+
+  footer .btn {
+    padding: 15px 10px;
+    margin-top: 15px;
+    display: block;
   }
 
   .nav-item {
