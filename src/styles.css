@@ -127,7 +127,7 @@ footer .btn {
 
 .img-box {
   background-color: var(--secondary-color);
-  border-radius: px;
+  padding: 25px 0;
 }
 
 .social-link {
@@ -270,7 +270,7 @@ footer p a:hover {
     font-size: 12px;
   }
 
-  h4 {
+  h3 {
     font-size: 28px;
     text-align: center;
   }
